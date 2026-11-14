@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "levels": [
+    {
+      "level_number": 1,
+      "title": "Mars Flyby Recon",
+      "mission_type": "FLYBY_RECON",
+      "difficulty": "Easy",
+      "max_budget_usd": 3500,
+      "max_build_time_sec": 420,
+      "min_health": 65,
+      "min_strength": 35,
+      "min_thrust": 40,
+      "min_shielding": 20,
+      "requires_surface_landing_gear": false,
+      "min_optics_resolution": 1,
+      "required_power_watts": 100,
+      "min_thermal_tolerance_celsius": 100,
+      "planet_report": {
+        "planet_title": "MARS PLANET REPORT",
+        "telemetry_mode_text": "Mock Orbital",
+        "coordinates_text": "-60.37 deg +39.85 deg",
+        "range_text": "69.39 - 62.05",
+        "environment_type": "Planetary",
+        "surface_temp_text": "-60 C",
+        "atmosphere_text": "Thin CO2",
+        "briefing_objective": "Fly past Mars and capture reconnaissance imagery. Power, imaging, and basic shielding are required."
+      }
+    },
+    {
+      "level_number": 2,
+      "title": "Phobos Orbital Rock Capture",
+      "mission_type": "ORBITAL_SAMPLE",
+      "difficulty": "Medium",
+      "max_budget_usd": 6200,
+      "max_build_time_sec": 840,
+      "min_health": 115,
+      "min_strength": 85,
+      "min_thrust": 75,
+      "min_shielding": 60,
+      "requires_surface_landing_gear": false,
+      "min_optics_resolution": 2,
+      "required_power_watts": 250,
+      "min_thermal_tolerance_celsius": 250,
+      "planet_report": {
+        "planet_title": "PHOBOS PLANET REPORT",
+        "telemetry_mode_text": "Mock Orbital",
+        "coordinates_text": "0.00 deg +0.00 deg",
+        "range_text": "1.20 - 0.85 km",
+        "environment_type": "Orbital Debris Ring",
+        "surface_temp_text": "-112 C to -4 C",
+        "atmosphere_text": "None (airless)",
+        "briefing_objective": "Rendezvous with Phobos's debris ring and capture a rock sample with an orbital grapple arm."
+      }
+    },
+    {
+      "level_number": 3,
+      "title": "Mars Surface Core Sample",
+      "mission_type": "SURFACE_CORE_DRILL",
+      "difficulty": "Hard",
+      "max_budget_usd": 9800,
+      "max_build_time_sec": 1110,
+      "min_health": 175,
+      "min_strength": 140,
+      "min_thrust": 90,
+      "min_shielding": 95,
+      "requires_surface_landing_gear": true,
+      "min_optics_resolution": 2,
+      "required_power_watts": 500,
+      "min_thermal_tolerance_celsius": 500,
+      "planet_report": {
+        "planet_title": "MARS PLANET REPORT",
+        "telemetry_mode_text": "Mock Surface",
+        "coordinates_text": "-60.37 deg +39.85 deg",
+        "range_text": "69.39 - 62.05",
+        "environment_type": "Planetary",
+        "surface_temp_text": "-60 C",
+        "atmosphere_text": "Thin CO2",
+        "briefing_objective": "Land on Mars, drive to the target site, and extract a core sample with a heavy core drill."
+      }
+    }
+  ]
+}
